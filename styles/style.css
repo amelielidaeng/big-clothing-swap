@@ -38,7 +38,7 @@ main {
     max-width: 400px;
     width: 100%;
     min-height: 600px; 
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Source Code Pro', monospace;
     line-height: 30px;
     border: 1px solid black;
@@ -47,6 +47,8 @@ main {
     padding: 20px;
 }
 
+/*whyyyy won't this move on down to the bottom? 
+is it bc the flex direction on main?*/
 .button-positioning {
     display: flex;
     justify-content: center;
@@ -62,4 +64,9 @@ main {
     width: 150px;
     height: 50px;
     border-radius: 5px;
+}
+
+.main-button:hover {
+    background-color: rgb(49, 255, 234);
+    opacity: 70%;
 }
