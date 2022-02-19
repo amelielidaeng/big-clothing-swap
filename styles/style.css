@@ -1,0 +1,30 @@
+main {
+    background-color: peachpuff;
+    background-image: linear-gradient(peachpuff, rgb(255, 161, 177)); 
+    max-width: 1200px;
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.title { 
+    font-size: 80px;
+    font-family: "Permanent Marker", italic;
+    letter-spacing: 10px;
+}
+
+.subtitle {
+    font-size: 30px;
+    text-align: center;
+}
+
+/*
+.main-button {
+    font-size: 20px;
+    font-family: "permanent marker", italic;
+    font color: purple;
+    width: 150px;
+    height: 50px;
+}
+*/
