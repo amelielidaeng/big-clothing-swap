@@ -3,15 +3,18 @@ main {
     background-image: linear-gradient(peachpuff, rgb(255, 161, 177)); 
     max-width: 1200px;
     width: 100%;
-    min-height: 800px;
+    min-height: 900px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-content: center;
 }
 
 .title { 
     font-size: 80px;
     font-family: "Permanent Marker", italic;
     letter-spacing: 10px;
+    text-align: center;
+    text-shadow: 1px 1px turquoise;
 }
 
 .subtitle {
@@ -19,12 +22,44 @@ main {
     text-align: center;
 }
 
-/*
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    margin-top: 30px;
+}
+
+.list-headline {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.card {
+    max-width: 400px;
+    width: 100%;
+    min-height: 600px; 
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+    line-height: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.button-positioning {
+    display: flex;
+    justify-content: center;
+}
+
 .main-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
     font-family: "permanent marker", italic;
-    font color: purple;
+    background-color: turquoise;
     width: 150px;
     height: 50px;
+    border-radius: 5px;
 }
-*/
